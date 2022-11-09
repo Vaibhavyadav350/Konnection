@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "235040339658",
+    "project_id": "konnection-e3d7a",
+    "storage_bucket": "konnection-e3d7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235040339658:android:6b4f0b77dd22b66d9d2633",
+        "android_client_info": {
+          "package_name": "com.vaibhav.konnection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235040339658-o3pirsdjubq10luguttf4r79pqnfq1qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtqPwnU68adCClhX6V1Abt8cYlwvnyHk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235040339658-o3pirsdjubq10luguttf4r79pqnfq1qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
