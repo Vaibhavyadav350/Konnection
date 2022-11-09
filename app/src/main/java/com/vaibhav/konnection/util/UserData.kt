@@ -5,4 +5,6 @@ data class UserData(
     var name: String = "",
     var profession: String = "",
     var age: Int = 0,
+    var insta:String="",
+    var contact: String="",
 )

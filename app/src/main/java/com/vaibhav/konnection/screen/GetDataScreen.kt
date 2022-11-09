@@ -1,5 +1,6 @@
 package com.vaibhav.konnection.screen
 
+import android.widget.Toast
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
@@ -26,7 +27,9 @@ fun GetDataScreen(
     var profession: String by remember { mutableStateOf("") }
     var age: String by remember { mutableStateOf("") }
     var ageInt: Int by remember { mutableStateOf(0) }
-
+    var insta: String by remember { mutableStateOf("") }
+    var contact: String by remember { mutableStateOf("") }
+    var contactInt: Int by remember { mutableStateOf(0) }
     val context = LocalContext.current
 
     // main Layout
@@ -64,7 +67,7 @@ fun GetDataScreen(
                         userID = it
                     },
                     label = {
-                        Text(text = "UserID")
+                        Text(text = "StudentID")
                     }
                 )
                 // get user data Button
@@ -81,10 +84,13 @@ fun GetDataScreen(
                             profession = data.profession
                             age = data.age.toString()
                             ageInt = age.toInt()
+                            insta = data.insta
+                            contact=data.contact.toString()
+                            contactInt=contact.toInt()
                         }
                     }
                 ) {
-                    Text(text = "Get Data")
+                    Text(text = "Get  Data")
                 }
             }
             // Name
@@ -106,7 +112,7 @@ fun GetDataScreen(
                     profession = it
                 },
                 label = {
-                    Text(text = "Profession")
+                    Text(text = "Talent")
                 }
             )
             // Age
@@ -120,11 +126,43 @@ fun GetDataScreen(
                     }
                 },
                 label = {
-                    Text(text = "Age")
+                    Text(text = "College Year")
                 },
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
             )
+
+            // Insta
+            OutlinedTextField(
+                modifier = Modifier.fillMaxWidth(),
+                value = insta,
+                onValueChange = {
+                    insta = it
+                },
+                label = {
+                    Text(text = "Insta Id")
+                }
+            )
+            // creating a variable of value 5
+            val mMaxLength = 10
+
+            // fetching local context
+            val mContext = LocalContext.current
+            // Contact
+            OutlinedTextField(
+                modifier = Modifier.fillMaxWidth(),
+                value = contact,
+                onValueChange = {
+                    if (it.toString().length <= mMaxLength)
+                    contact = it
+                    else Toast.makeText(mContext, "Cannot be more than 10 Number", Toast.LENGTH_SHORT).show()
+
+                },
+                label = {
+                    Text(text = "Contact")
+                }, keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
+            )
             // save Button
+            //          keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
             Button(
                 modifier = Modifier
                     .padding(top = 50.dp)
@@ -134,7 +172,9 @@ fun GetDataScreen(
                         userID = userID,
                         name = name,
                         profession = profession,
-                        age = ageInt
+                        age = ageInt,
+                        insta = insta,
+                        contact=contact,
                     )
 
                     sharedViewModel.saveData(userData = userData, context = context)
