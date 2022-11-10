@@ -1,9 +1,7 @@
 # Konnection
 KIIT Konnections
-<h1 align="center">Hi 👋, I'm Vaibhav Yadav
-  
-<h5 align="center">Android developer </h3></h1>
-<h5 align="center">Android developer </h3>
+<h1 align="center">Hi 👋, I'm Vaibhav Yadav</h1>
+<h4 align="center">Android developer </h4>
 <h3 align="center">Making this Project for IOT Hackathon </h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vaibhavyadav350&label=Profile%20views&color=0e75b6&style=flat" alt="vaibhavyadav350" /> </p>
 
