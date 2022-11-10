@@ -15,8 +15,6 @@ KIIT Konnections
 
 - About Project: This is a CURD based app. 
 
-- ⚡Tech Stack Used...
-
 <p align="left" 
 </p>
 
