@@ -15,6 +15,8 @@ KIIT Konnections
 
 - About Project: This is a CURD based app. 
 
+- I made this Project using Kotlin Programming Language in Jetpack Compose. 
+
 <p align="left" 
 </p>
 
