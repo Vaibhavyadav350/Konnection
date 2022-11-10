@@ -11,12 +11,23 @@ KIIT Konnections
 
 - 👯 I’m looking to collaborate for fixing bugs in my app
 
-- 📝 Further I am working to build web app preview all talents in website. 
-
 - About Project: This is a CURD based app. 
 
 - I made this Project using Kotlin Programming Language in Jetpack Compose. 
 
+- **📝 Further I am working to build web app preview all talents in website.** 
+
+- Student with any talent can save their data in this app...Like their Name,Roll No.,talent, insta id. etc, 
+  Also they can update/delete thier given data later. 
+<h3 align="left">Steps</h3>
+
+
+- Download App form the give link in github Install it and Open it(Konnection App). 
+
+- Click on *Add User data* to add Student Detail. **>>**  Fill the details required.(*Create a Unique Student Id Ex.. Vai350*) **>>** Click on Save Button
+
+
+- Click on *Get User data* to get info about the saved data. **>>**  Enter StudentID  **>>** Click Get Data **>>** You will get the data Further you can update your data. 
 <p align="left" 
 </p>
 <h3 align="left">ScreenShots:</h3>
