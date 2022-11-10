@@ -158,7 +158,7 @@ fun GetDataScreen(
 
                 },
                 label = {
-                    Text(text = "Contact")
+                    Text(text = "Roll No.")
                 }, keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
             )
             // save Button

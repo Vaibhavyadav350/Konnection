@@ -69,7 +69,7 @@ fun AddDataScreen(
                     userID = it
                 },
                 label = {
-                    Text(text = "StudentID")
+                    Text(text = "Create StudentID")
                 }
             )
             // Name
@@ -134,11 +134,12 @@ fun AddDataScreen(
                 onValueChange = {
                     if (it.toString().length <= mMaxLength)
                         contact = it
-                    else Toast.makeText(mContext, "Cannot be more than 10 Number", Toast.LENGTH_SHORT).show()
+                    else Toast.makeText(mContext, "Cannot be more than 10 Number",
+                        Toast.LENGTH_SHORT).show()
 
                 },
                 label = {
-                    Text(text = "Contact")
+                    Text(text = "Roll No.")
                 }, keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
             )
             // save Button
