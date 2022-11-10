@@ -1,22 +1,23 @@
 # Konnection
 KIIT Konnections
 <h1 align="center">Hi 👋, I'm Vaibhav Yadav</h1>
-<h3 align="center">A passionate Android developer </h3>
+<h5 align="center">Android developer </h3>
 <h3 align="center">Making this Project for IOT Hackathon </h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vaibhavyadav350&label=Profile%20views&color=0e75b6&style=flat" alt="vaibhavyadav350" /> </p>
 
-- 🔭 I’m currently working on **Knnnections**
+- 🔭 I’m currently working on **Konnections**
 
-- 👨‍💻 This Project will help Kiitians to **connect with different talents in KIIT**
+- 👨‍💻 This Project will help **Kiitians to connect with different talents in KIIT**
 
-- 👯 I’m looking to collaborate **for fixing bugs in my app**
+- 👯 I’m looking to collaborate for fixing bugs in my app
 
-- 📝 Further I am working to build web app **preview all talents.**
+- 📝 Further I am working to build web app preview all talents in website. 
 
-- ⚡Tech Stack **Used...**
+- About Project: This is a CURD based app. 
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+- ⚡Tech Stack Used...
+
+<p align="left" 
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
